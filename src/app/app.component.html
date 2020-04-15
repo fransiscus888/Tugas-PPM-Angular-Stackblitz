@@ -1,0 +1,13 @@
+<input [(ngModel)]="bil1" type="text"/> Input bilangan 1
+<br/>
+<input [(ngModel)]="bil2" type="text"/> Input bilangan 2
+<br/><br/>
+<button (click)="hitung()"> Hitung</button>
+<button (click)="reset()" style="margin-left:50px">Reset</button>
+
+<div>
+hasil:{{hasil}}
+</div>
+<div style="width: 500px;white-space: pre-line">
+{{patern}}
+</div>
